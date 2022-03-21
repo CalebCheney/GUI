@@ -39,13 +39,13 @@ class TestGUI:
         self.test3_entry.pack()
         
 
-        self.avgbutton = tkinter.Button(self.main_window, test = 'Average', command = self.average)
+        self.avgbutton = tkinter.Button(self.main_window, text = 'Average', command = self.average)
         self.quitbutton = tkinter.Button(self.main_window, text = 'Quit', command = self.main_window.destroy)
-        '''
+        
         #pack buttons
         self.avgbutton.pack()
         self.quitbutton.pack()
-        '''
+        
         tkinter.mainloop()
         
     def average(self):
