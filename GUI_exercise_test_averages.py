@@ -54,7 +54,8 @@ class TestGUI:
         test3 = float(self.test3_entry.get())
 
         avg = (test1 + test2 + test3) / 3
+        result = round(avg,2)
 
-        tkinter.messagebox.showinfo('Results', str(avg))
+        tkinter.messagebox.showinfo('Results', str(result))
         
 test_gui = TestGUI()
